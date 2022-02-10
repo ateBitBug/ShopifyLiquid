@@ -1,0 +1,27 @@
+{
+  "name": "001shopifymartin",
+  "description": "creat a git repository and follow its instruction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ateBitBug/ShopifyLiquid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ateBitBug/ShopifyLiquid/issues"
+  },
+  "homepage": "https://github.com/ateBitBug/ShopifyLiquid#readme",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.9",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}

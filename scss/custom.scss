@@ -1,0 +1,9 @@
+$color-red: rgb(238, 43, 43);
+$color-green: green;
+$color-pink: pink;
+
+.site-header,
+.site-header__mobile-nav,
+body {
+  background-color: $color-red;
+}
