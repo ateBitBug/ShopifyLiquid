@@ -86,3 +86,15 @@ background-color: $color-red;
 - once 'theme watch' is added to gulp along with sass, use the command 'gulp watch' to run multiple
   commands and updates the theme
 - to remove white spaces in the code, add in the 'gulp-clean' in the commands by adding it in 'gulpfile.js
+
+* now to add all changes:
+  - git status
+  - git add .
+  - git status
+  - git commit -m "added gulp to execute sass-clean-watch and updates the pages
+  - git push -u origin main
+  - git pull
+
+- go to github and review the '# commit'
+
+- to restart gulp -> gulp watch
