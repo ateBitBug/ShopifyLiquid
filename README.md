@@ -1,8 +1,27 @@
 # shopify_liquid
 
+https://github.com/uxhacks/shopify-tutorial
+
+things uploaded to shopify are:
+assets
+config
+layout
+locales
+sections
+snippets
+templates
+
+echo "# vuejs_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ateBitBug/vuejs_test.git
+git push -u origin main
+
 creat a git repository and follow its instruction
 
-how to set up theme for shopify
+how to set up theme for shopify (node version of themeKit)
 https://shopify.dev/themes/tools/theme-kit
 https://shopify.dev/themes/tools/theme-kit/getting-started
 
@@ -72,6 +91,10 @@ $color-red: rgb(238, 43, 43);
 body {
 background-color: $color-red;
 }
+
+- open layout/theme.liquid
+  - find line@ 77 -> <link ... stylesheet>; copy this line and change 'theme.css'
+    to 'global.css' (see #78)
 
 and then use 'gulp sass' which creates a new 'assets/global.css'
 again additional changes can be made to 'scss/custom.scss' to create a new 'assets/global.css'
