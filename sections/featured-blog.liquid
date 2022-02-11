@@ -8,6 +8,7 @@
   {%- assign blog = blogs[section.settings.blog] -%}
 
   {% unless blog.articles_count == 0 %}
+    {{ blog.articles_count}}
     <ul class="grid grid--uniform grid--blog">
       {% for article in blog.articles limit: section.settings.post_limit %}
         <li class="grid__item medium-up--one-third">
@@ -267,9 +268,9 @@
         "zh-CN": "文章",
         "zh-TW": "貼文"
       },
-      "min": 3,
+      "min": 1,
       "max": 12,
-      "step": 3,
+      "step": 1,
       "default": 3
     },
     {
